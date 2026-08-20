@@ -7,12 +7,30 @@ Repositório de documentação do projeto **Milebag — Gestão de Última Milha
 ```
 mile_bag_documentacao/
 ├── evidencias/    # Documentos formais do projeto (TCC, TAP, etc.)
+├── requisitos/    # Especificação de requisitos, derivada das evidências
+├── HUs/           # Histórias de usuário, derivadas dos requisitos funcionais
+├── specs/         # Especificações spec-kit (spec.md por feature), derivadas das HUs
 └── sessao/        # Registro do que foi feito em cada sessão de trabalho
 ```
 
 ### `evidencias/`
 
 Documentos oficiais do trabalho acadêmico e do projeto, incluindo o documento principal (introdução, escopo, Termo de Abertura do Projeto — TAP), nos formatos original (`.docx`) e em Markdown para leitura/versionamento mais simples.
+
+### `requisitos/`
+
+Especificação de requisitos funcionais, não funcionais, regras de negócio, regras de domínio e regras de interface, extraída e detalhada a partir do documento em `evidencias/`.
+
+### `HUs/`
+
+Histórias de usuário, organizadas por persona (motorista, administrador do tenant, administrador da plataforma), derivadas dos requisitos funcionais em `requisitos/`.
+
+### `specs/`
+
+Especificações no formato spec-kit, geradas a partir das HUs em `HUs/`. Usado pelo fluxo `/speckit-*` (Claude Code) para planejamento e geração de tarefas.
+
+- `001-milebag-user-stories/` — spec consolidada com as 16 HUs agrupadas em 3 User Stories priorizadas (visão geral do produto).
+- `HU01-.../` a `HU16-.../` — uma pasta por HU, cada uma com o ciclo completo do spec-kit: `spec.md`, `plan.md`, `research.md`, `data-model.md`, `contracts/`, `quickstart.md` e `tasks.md`. `plan.md`/`research.md` de cada HU referenciam por link relativo os equivalentes em `001-milebag-user-stories/` para não repetir a definição da stack e da Constitution Check. `tasks.md` segue a fase única User Story 1 (a própria HU) — Setup → Foundational → US1 🎯 MVP → Polish —, sem tarefas de teste (não solicitadas nos specs).
 
 ### `sessao/`
 
