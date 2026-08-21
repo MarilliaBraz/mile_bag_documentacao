@@ -2,7 +2,7 @@
 
 Especificação de requisitos do sistema **Milebag**, levantada a partir do documento de evidência do projeto (`evidencias/Projeto_de_software_-_ADS_com_TAP.md`), em especial das seções 1 (Introdução), 2 (Escopo do projeto) e 3.6 (Requisitos de alto nível do TAP).
 
-Os requisitos de alto nível (RF01–RF11 e RNF01–RNF05) definidos no TAP foram detalhados e complementados com base na descrição do problema, dos objetivos do sistema e do escopo. Onde um requisito ou regra não tem número correspondente no TAP, ele foi inferido diretamente do texto do documento — a origem está indicada em cada item.
+Os requisitos de alto nível (RF01–RF11 e RNF01–RNF05) definidos no TAP foram detalhados e complementados com base na descrição do problema, dos objetivos do sistema e do escopo. Onde um requisito ou regra não tem número correspondente no TAP, ele foi inferido diretamente do texto do documento — a origem está indicada em cada item. A partir de 2026-08-21, alguns itens passaram a ser definidos diretamente em sessão de trabalho (a pedido da administração/product owner), sem correspondência no TAP original — esses itens também trazem a origem explícita no campo **Origem**.
 
 ## Estrutura
 

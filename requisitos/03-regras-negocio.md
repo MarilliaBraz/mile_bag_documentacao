@@ -73,3 +73,11 @@ Políticas da operação de devolução de bagagens que existem independentement
 **Descrição:** As seguintes atividades não fazem parte da operação suportada pelo sistema e não devem ser tratadas como responsabilidade dele: integração eletrônica direta com sistemas das companhias aéreas; emissão de documentos fiscais; cobrança automática de assinaturas via gateway de pagamento; roteirização automática com otimização de múltiplas paradas; atendimento ao passageiro final; e tratamento de indenizações por extravio definitivo.
 
 **Origem:** Seções 2.6 e 3.5 (fora do escopo).
+
+## RN13 — Motorista pode conferir e corrigir seu próprio relatório quinzenal, sempre com justificativa
+
+**Descrição:** Todo motorista pode visualizar e imprimir seu próprio relatório de entregas do período de fechamento (as mesmas entregas que compõem o fechamento gerado pelo tenant em RN08), para conferência antes do pagamento. Nesse relatório, o motorista pode corrigir diretamente os dados calculados de uma entrega específica — quilometragem, tarifa aplicada e valor de pedágio —, mas toda correção exige o preenchimento de uma justificativa obrigatória e fica registrada como um ajuste datado e atribuído ao motorista, sem apagar o valor originalmente congelado (RN02). O fechamento usa o valor mais recente (ajustado, se houver) no cálculo do pagamento.
+
+**Por que isso não contradiz RN02:** o snapshot de rota continua imutável e nunca é sobrescrito silenciosamente — o ajuste é um registro adicional, vinculado à viagem, com motivo e autoria explícitos (alinhado ao princípio de auditabilidade de `mile_bag_audite/CONSTITUTION.md` §2). RN02 proíbe substituir o valor congelado por uma *nova consulta automática* ao serviço de mapas; não proíbe uma correção humana, justificada e rastreável.
+
+**Origem:** Definida em sessão de trabalho de 2026-08-21, a pedido da administração/product owner — não consta no TAP original (seção 3.6). Resolve diretamente o problema de divergência entre o valor apurado pela empresa e o esperado pelo motorista, citado como uma das causas do projeto (seção 1.2 do TAP).

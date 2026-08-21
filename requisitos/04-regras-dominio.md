@@ -73,3 +73,9 @@ Conceitos, invariantes e relações estruturais do modelo de domínio do sistema
 **Descrição:** O domínio reconhece, no mínimo, os perfis de administrador do tenant, operador de back-office e motorista, cada um com autorizações distintas sobre as funcionalidades do sistema, propagadas via claim de tenant e perfil no token de autenticação.
 
 **Origem:** Seções 2.5 e 3.6 (RNF03).
+
+## RD13 — Ajuste de viagem
+
+**Descrição:** Um ajuste é um registro que corrige um dos valores calculados de uma viagem já congelada (quilometragem de ida/volta, tarifa aplicada ou valor de pedágio), feito pelo próprio motorista, sempre com justificativa obrigatória e data/hora do ajuste. O ajuste nunca sobrescreve o snapshot original da viagem (RD04) — ele é um registro adicional, vinculado à viagem, que passa a ser o valor usado no fechamento (RN13) enquanto o valor congelado original permanece preservado no histórico, para auditoria.
+
+**Origem:** Definida em sessão de trabalho de 2026-08-21, a pedido da administração/product owner (RN13, RF16).

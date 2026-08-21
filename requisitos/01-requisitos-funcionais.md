@@ -89,3 +89,9 @@
 **Descrição:** O sistema deve gerar os relatórios do fechamento periódico (PDF) com a identidade visual configurada por cada tenant.
 
 **Origem:** Seções 2.4 e 2.5 (Quadro 3, linha "Relatórios").
+
+## RF16 — Emitir relatório de conferência quinzenal do motorista
+
+**Descrição:** O sistema deve permitir que o motorista visualize e imprima seu próprio relatório de entregas do período de fechamento, para conferência, e deve permitir que ele registre uma correção nos dados calculados de uma entrega (quilometragem, tarifa aplicada ou valor de pedágio) diretamente nesse relatório, mediante justificativa obrigatória para cada correção.
+
+**Origem:** Definida em sessão de trabalho de 2026-08-21, a pedido da administração/product owner (RN13).

@@ -61,3 +61,9 @@ Regras sobre como o usuário interage com o sistema ou sobre o comportamento exi
 **Descrição:** A interface de registro de ocorrência ou de encerramento de entrega ("baixa") deve exibir campos obrigatórios que variam conforme a configuração definida por cada tenant, e não um formulário fixo único para todos os clientes.
 
 **Origem:** Seção 2.4.
+
+## RI11 — Relatório quinzenal do motorista imprimível, com ajuste sempre justificado
+
+**Descrição:** A tela de relatório quinzenal do motorista deve ser otimizada para impressão (layout limpo, sem elementos de navegação, pronta para gerar PDF/imprimir). Cada linha editável (quilometragem, tarifa aplicada, valor de pedágio) deve exigir o preenchimento do campo de justificativa antes de permitir salvar a correção — não deve existir caminho para registrar um ajuste sem justificativa. O valor original congelado deve continuar visível (ex.: riscado ou em um histórico), ao lado do valor ajustado.
+
+**Origem:** Definida em sessão de trabalho de 2026-08-21, a pedido da administração/product owner (RN13, RF16).

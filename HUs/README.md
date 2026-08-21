@@ -16,7 +16,8 @@ HUs/
 │   ├── HU05-vincular-bagagem-carona.md
 │   ├── HU06-registrar-comprovante-entrega.md
 │   ├── HU07-registrar-ocorrencia-nao-entrega.md
-│   └── HU08-operar-offline-sincronizar.md
+│   ├── HU08-operar-offline-sincronizar.md
+│   └── HU17-conferir-corrigir-relatorio-quinzenal.md
 ├── administrador-tenant/
 │   ├── HU09-configurar-tabelas-tarifa.md
 │   ├── HU10-cadastrar-pracas-pedagio.md
@@ -59,3 +60,4 @@ seguido de **Requisito(s) relacionado(s)** e **Critérios de aceite**.
 | HU14 | Cadastrar empresa assinante (tenant) | Administrador da plataforma | RF10 | `administrador-plataforma/HU14-cadastrar-empresa-assinante.md` |
 | HU15 | Convidar o primeiro administrador do tenant | Administrador da plataforma | RF10 | `administrador-plataforma/HU15-convidar-primeiro-administrador-tenant.md` |
 | HU16 | Gerenciar planos de assinatura | Administrador da plataforma | RF12 | `administrador-plataforma/HU16-gerenciar-planos-assinatura.md` |
+| HU17 | Conferir e corrigir meu relatório quinzenal | Motorista | RF16, RN13 | `motorista/HU17-conferir-corrigir-relatorio-quinzenal.md` |
