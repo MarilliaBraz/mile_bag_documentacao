@@ -40,5 +40,6 @@ Um arquivo por sessão de trabalho (`AAAA-MM-DD.md`), documentando o que foi fei
 
 - [`mile_bag_api`](https://github.com/MarilliaBraz/mile_bag_api) — back-end (Java/Spring Boot)
 - [`mile_bag_app`](https://github.com/MarilliaBraz/mile_bag_app) — front-end / aplicação do motorista (React)
+- [`mile_bag_prototipo`](https://github.com/MarilliaBraz/mile_bag_prototipo) — protótipo navegável (React) das 16 HUs, sem back-end real
 - [`mile_bag_infra`](https://github.com/MarilliaBraz/mile_bag_infra) — infraestrutura e implantação
-- [`mile_bag_audite`](https://github.com/MarilliaBraz/mile_bag_audite) — módulo de auditoria (constituição e convenções técnicas do projeto)
+- [`mile_bag_audite`](https://github.com/MarilliaBraz/mile_bag_audite) — constituição e convenções técnicas do projeto
